@@ -1,0 +1,34 @@
+﻿table.dataTable {
+    width: 100%;
+}
+
+    table.dataTable tr th.details-control {
+        width: 1.5em;
+    }
+
+    table.dataTable tr td.details-control {
+        text-align: center;
+    }
+
+        table.dataTable tr td.details-control::before {
+            font-family: "FontAwesome";
+            content: "\f067";
+        }
+
+    table.dataTable tr.details td.details-control::before {
+        content: "\f068";
+    }
+    /** Striped  color */
+
+    table.dataTable tbody tr.odd {
+        background-color: rgba(0,0,0,.04);
+    }
+    /** Hover  color */
+
+    table.dataTable tbody tr:hover td {
+        background-color: rgba(0,0,0, .08);
+    }
+    /** Remove border of bootstrap table*/
+    table.dataTable tbody > tr > td {
+        border: none;
+    }

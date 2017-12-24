@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AspnetFormDatatable.Test", "AspnetFormDatatable.Test\", "{AE643C5A-8419-424D-9CDA-AE564490E7D4}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{d68a8d49-96e3-49a6-9af8-91ecc2e9a44f}|AspnetFormDatatable.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_63803"
 		Debug.AspNetCompiler.PhysicalPath = "AspnetFormDatatable.Test\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63803\"
@@ -25,13 +26,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AspnetFormDatatable.Test", 
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspnetFormDatatable", "AspnetFormDatatable\AspnetFormDatatable.csproj", "{D68A8D49-96E3-49A6-9AF8-91ECC2E9A44F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AE643C5A-8419-424D-9CDA-AE564490E7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE643C5A-8419-424D-9CDA-AE564490E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE643C5A-8419-424D-9CDA-AE564490E7D4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE643C5A-8419-424D-9CDA-AE564490E7D4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D68A8D49-96E3-49A6-9AF8-91ECC2E9A44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68A8D49-96E3-49A6-9AF8-91ECC2E9A44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68A8D49-96E3-49A6-9AF8-91ECC2E9A44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68A8D49-96E3-49A6-9AF8-91ECC2E9A44F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
