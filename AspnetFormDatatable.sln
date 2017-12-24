@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AspnetFormDatatable.Test", "AspnetFormDatatable.Test\", "{AE643C5A-8419-424D-9CDA-AE564490E7D4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63803"
+		Debug.AspNetCompiler.PhysicalPath = "AspnetFormDatatable.Test\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63803\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63803"
+		Release.AspNetCompiler.PhysicalPath = "AspnetFormDatatable.Test\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63803\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63803"
+		SlnRelativePath = "AspnetFormDatatable.Test\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE643C5A-8419-424D-9CDA-AE564490E7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE643C5A-8419-424D-9CDA-AE564490E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83C4DE98-1F3C-4286-A285-3EA1A4192FA3}
+	EndGlobalSection
+EndGlobal
